@@ -101,3 +101,413 @@
 2025-03-15 10:25:31.112 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
 2025-03-15 10:25:31.114 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
 2025-03-15 10:25:40.297 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=阮, gender=null, begin=null, end=null)
+2025-03-15 10:49:51.102 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-15 10:49:51.106 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-03-15 10:49:51.108 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-03-15 10:49:51.143 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-03-15 11:20:17.558 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.4 with PID 12440 (D:\java学习\web-ai-project02\tlias-web-management\target\classes started by ZIO in D:\java学习\web-ai-project02)
+2025-03-15 11:20:17.559 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-03-15 11:20:18.250 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor-Post-processing PropertySource instances
+2025-03-15 11:20:18.251 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 11:20:18.252 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 11:20:18.252 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 11:20:18.252 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 11:20:18.252 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-03-15 11:20:18.252 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-03-15 11:20:18.252 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 11:20:18.252 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 11:20:18.421 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-03-15 11:20:18.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-15 11:20:18.431 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-03-15 11:20:18.431 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-15 11:20:18.459 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-03-15 11:20:18.459 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 870 ms
+2025-03-15 11:20:18.508 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter-Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-03-15 11:20:18.512 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver-Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-03-15 11:20:18.514 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector-Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-03-15 11:20:18.865 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-03-15 11:20:18.876 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.caching.RefreshScopeRefreshedEventListener-Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemProperties refreshed
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemEnvironment refreshed
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source random refreshed
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source applicationInfo refreshed
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 11:20:18.877 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-03-15 11:20:18.882 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.638 seconds (process running for 2.271)
+2025-03-15 11:20:23.897 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-15 11:20:23.897 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-03-15 11:20:23.897 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-03-15 11:20:23.922 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=null, gender=1, begin=null, end=null)
+2025-03-15 11:20:24.007 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-03-15 11:20:24.250 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e453a5f
+2025-03-15 11:20:24.252 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-03-15 11:20:28.373 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-15 11:20:28.377 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-03-15 11:20:28.380 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-03-15 11:20:28.384 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-03-15 12:23:08.110 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.4 with PID 4840 (D:\java学习\web-ai-project02\tlias-web-management\target\classes started by ZIO in D:\java学习\web-ai-project02)
+2025-03-15 12:23:08.111 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-03-15 12:23:08.671 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor-Post-processing PropertySource instances
+2025-03-15 12:23:08.671 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 12:23:08.672 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:23:08.672 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:23:08.672 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:23:08.672 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-03-15 12:23:08.672 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-03-15 12:23:08.672 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:23:08.672 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:23:08.835 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-03-15 12:23:08.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-15 12:23:08.845 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-03-15 12:23:08.845 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-15 12:23:08.877 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-03-15 12:23:08.877 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 737 ms
+2025-03-15 12:23:08.927 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter-Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-03-15 12:23:08.934 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver-Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-03-15 12:23:08.935 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector-Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-03-15 12:23:09.374 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-03-15 12:23:09.384 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.caching.RefreshScopeRefreshedEventListener-Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemProperties refreshed
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemEnvironment refreshed
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source random refreshed
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source applicationInfo refreshed
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:23:09.385 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-03-15 12:23:09.390 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.58 seconds (process running for 2.135)
+2025-03-15 12:26:12.492 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-15 12:26:12.493 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-03-15 12:26:12.494 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-03-15 12:26:12.637 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-新增员工数据：Emp(id=null, username=linpingzhi, password=null, name=林平之, gender=1, phone=18809091234, job=1, salary=8000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-38222.jpg, entryDate=2022-09-18, deptId=1, deptName=null, createTime=null, updateTime=null, exprList=[EmpExpr(id=null, empId=null, begin=2012-07-01, end=2019-03-03, company=百度科技股份有限公司, job=java开发), EmpExpr(id=null, empId=null, begin=2019-03-15, end=2023-03-01, company=阿里巴巴科技股份有限公司, job=架构师)])
+2025-03-15 12:26:12.672 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-03-15 12:26:13.266 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4162b2ae
+2025-03-15 12:26:13.268 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-03-15 12:31:27.934 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-15 12:31:27.938 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-03-15 12:31:27.940 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-03-15 12:31:27.943 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-03-15 12:31:29.656 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.4 with PID 29952 (D:\java学习\web-ai-project02\tlias-web-management\target\classes started by ZIO in D:\java学习\web-ai-project02)
+2025-03-15 12:31:29.657 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-03-15 12:31:30.069 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor-Post-processing PropertySource instances
+2025-03-15 12:31:30.069 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 12:31:30.070 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:31:30.070 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:31:30.071 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:31:30.071 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-03-15 12:31:30.071 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-03-15 12:31:30.071 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:31:30.071 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:31:30.220 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-03-15 12:31:30.227 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-15 12:31:30.228 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-03-15 12:31:30.228 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-15 12:31:30.256 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-03-15 12:31:30.257 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 579 ms
+2025-03-15 12:31:30.295 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter-Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-03-15 12:31:30.303 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver-Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-03-15 12:31:30.304 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector-Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-03-15 12:31:30.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-03-15 12:31:30.682 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-03-15 12:31:30.683 [main] INFO  c.u.j.caching.RefreshScopeRefreshedEventListener-Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2025-03-15 12:31:30.683 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemProperties refreshed
+2025-03-15 12:31:30.684 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemEnvironment refreshed
+2025-03-15 12:31:30.684 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source random refreshed
+2025-03-15 12:31:30.684 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2025-03-15 12:31:30.684 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source applicationInfo refreshed
+2025-03-15 12:31:30.684 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 12:31:30.684 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:31:30.684 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-03-15 12:31:30.687 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.248 seconds (process running for 1.666)
+2025-03-15 12:32:34.806 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-15 12:32:34.806 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-03-15 12:32:34.807 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-03-15 12:32:34.881 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-新增员工数据：Emp(id=null, username=linpingzhi, password=null, name=林平之, gender=1, phone=18809091234, job=1, salary=8000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-38222.jpg, entryDate=2022-09-18, deptId=1, deptName=null, createTime=null, updateTime=null, exprList=[EmpExpr(id=null, empId=null, begin=2012-07-01, end=2019-03-03, company=百度科技股份有限公司, job=java开发), EmpExpr(id=null, empId=null, begin=2019-03-15, end=2023-03-01, company=阿里巴巴科技股份有限公司, job=架构师)])
+2025-03-15 12:32:34.896 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-03-15 12:32:35.089 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32db2cb2
+2025-03-15 12:32:35.090 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-03-15 12:33:26.136 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-15 12:33:26.140 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-03-15 12:33:26.143 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-03-15 12:33:26.147 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-03-15 12:33:28.582 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.4 with PID 1464 (D:\java学习\web-ai-project02\tlias-web-management\target\classes started by ZIO in D:\java学习\web-ai-project02)
+2025-03-15 12:33:28.585 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-03-15 12:33:29.196 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor-Post-processing PropertySource instances
+2025-03-15 12:33:29.196 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 12:33:29.197 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:33:29.197 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:33:29.197 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:33:29.199 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-03-15 12:33:29.199 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-03-15 12:33:29.199 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:33:29.199 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 12:33:29.336 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-03-15 12:33:29.343 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-15 12:33:29.344 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-03-15 12:33:29.344 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-15 12:33:29.369 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-03-15 12:33:29.369 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 710 ms
+2025-03-15 12:33:29.404 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter-Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-03-15 12:33:29.411 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver-Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-03-15 12:33:29.412 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector-Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-03-15 12:33:29.742 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-03-15 12:33:29.751 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-03-15 12:33:29.752 [main] INFO  c.u.j.caching.RefreshScopeRefreshedEventListener-Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemProperties refreshed
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemEnvironment refreshed
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source random refreshed
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source applicationInfo refreshed
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 12:33:29.753 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-03-15 12:33:29.757 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.396 seconds (process running for 1.809)
+2025-03-15 12:33:41.288 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-15 12:33:41.288 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-03-15 12:33:41.289 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-03-15 12:33:41.346 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-新增员工数据：Emp(id=null, username=linpingzhi, password=null, name=林平之, gender=1, phone=18809091234, job=1, salary=8000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-38222.jpg, entryDate=2022-09-18, deptId=1, deptName=null, createTime=null, updateTime=null, exprList=[EmpExpr(id=null, empId=null, begin=2012-07-01, end=2019-03-03, company=百度科技股份有限公司, job=java开发), EmpExpr(id=null, empId=null, begin=2019-03-15, end=2023-03-01, company=阿里巴巴科技股份有限公司, job=架构师)])
+2025-03-15 12:33:41.365 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-03-15 12:33:41.569 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ae55c32
+2025-03-15 12:33:41.570 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-03-15 12:39:32.356 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-03-15 12:39:32.367 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-03-15 12:40:32.773 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-新增员工数据：Emp(id=null, username=linghuchong2, password=null, name=令狐冲, gender=1, phone=18850540234, job=4, salary=8000, image=, entryDate=2025-03-06, deptId=2, deptName=null, createTime=null, updateTime=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-03-01, end=2025-04-02, company=BitDance, job=项目经理)])
+2025-03-15 12:40:32.819 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-03-15 12:44:08.280 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-15 12:44:08.284 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-03-15 12:44:08.286 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-03-15 12:44:08.290 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-03-15 13:59:12.715 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.4 with PID 30420 (D:\java学习\web-ai-project02\tlias-web-management\target\classes started by ZIO in D:\java学习\web-ai-project02)
+2025-03-15 13:59:12.717 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-03-15 13:59:13.227 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor-Post-processing PropertySource instances
+2025-03-15 13:59:13.227 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 13:59:13.228 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 13:59:13.228 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 13:59:13.229 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 13:59:13.229 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-03-15 13:59:13.229 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-03-15 13:59:13.229 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 13:59:13.229 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 13:59:13.410 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-03-15 13:59:13.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-15 13:59:13.420 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-03-15 13:59:13.421 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-15 13:59:13.450 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-03-15 13:59:13.451 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 710 ms
+2025-03-15 13:59:13.506 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter-Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-03-15 13:59:13.511 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver-Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-03-15 13:59:13.513 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector-Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-03-15 13:59:13.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-03-15 13:59:13.925 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.caching.RefreshScopeRefreshedEventListener-Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemProperties refreshed
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemEnvironment refreshed
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source random refreshed
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source applicationInfo refreshed
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 13:59:13.926 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 13:59:13.927 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-03-15 13:59:13.938 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.477 seconds (process running for 2.572)
+2025-03-15 13:59:42.177 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-15 13:59:42.178 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-03-15 13:59:42.179 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-03-15 13:59:42.351 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-新增员工数据：Emp(id=null, username=otto, password=null, name=电棍, gender=1, phone=18955501234, job=2, salary=9999, image=, entryDate=null, deptId=3, deptName=null, createTime=null, updateTime=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-03-12, end=2025-03-21, company=斗鱼, job=主播)])
+2025-03-15 13:59:42.365 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-03-15 13:59:42.368 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-03-15 13:59:42.950 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@450f8bba
+2025-03-15 13:59:42.954 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-03-15 13:59:42.963 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@48788731 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba] for JDBC transaction
+2025-03-15 13:59:42.975 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@48788731 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba] to manual commit
+2025-03-15 13:59:43.101 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-03-15 13:59:43.102 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@48788731 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba]
+2025-03-15 13:59:43.108 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@48788731 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba] after transaction
+2025-03-15 13:59:43.119 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.itheima.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.itheima.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.itheima.controller.EmpController.save(EmpController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-15 14:00:31.076 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-新增员工数据：Emp(id=null, username=otto, password=null, name=电棍, gender=1, phone=18955501234, job=2, salary=9999, image=, entryDate=null, deptId=3, deptName=null, createTime=null, updateTime=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-03-12, end=2025-03-21, company=斗鱼, job=主播)])
+2025-03-15 14:00:31.076 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-03-15 14:00:31.076 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@222704868 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba] for JDBC transaction
+2025-03-15 14:00:31.076 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@222704868 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba] to manual commit
+2025-03-15 14:00:31.082 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-03-15 14:00:31.082 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@222704868 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba]
+2025-03-15 14:00:31.084 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@222704868 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f8bba] after transaction
+2025-03-15 14:00:31.085 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.itheima.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.itheima.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.itheima.controller.EmpController.save(EmpController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-15 14:00:35.595 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-15 14:00:35.605 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-03-15 14:00:35.609 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-03-15 14:00:35.624 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-03-15 14:00:39.413 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.4 with PID 28440 (D:\java学习\web-ai-project02\tlias-web-management\target\classes started by ZIO in D:\java学习\web-ai-project02)
+2025-03-15 14:00:39.414 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-03-15 14:00:39.935 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor-Post-processing PropertySource instances
+2025-03-15 14:00:39.935 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 14:00:39.936 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 14:00:39.936 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 14:00:39.936 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 14:00:39.936 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-03-15 14:00:39.936 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-03-15 14:00:39.936 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 14:00:39.938 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-03-15 14:00:40.118 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-03-15 14:00:40.127 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-15 14:00:40.128 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-03-15 14:00:40.128 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-15 14:00:40.160 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-03-15 14:00:40.161 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 718 ms
+2025-03-15 14:00:40.220 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter-Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-03-15 14:00:40.226 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver-Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-03-15 14:00:40.228 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector-Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-03-15 14:00:40.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-03-15 14:00:40.648 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-03-15 14:00:40.649 [main] INFO  c.u.j.caching.RefreshScopeRefreshedEventListener-Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemProperties refreshed
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source systemEnvironment refreshed
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source random refreshed
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource-Property Source applicationInfo refreshed
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-03-15 14:00:40.650 [main] INFO  c.u.j.EncryptablePropertySourceConverter-Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-03-15 14:00:40.656 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.505 seconds (process running for 2.142)
+2025-03-15 14:00:43.461 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-15 14:00:43.461 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-03-15 14:00:43.462 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-03-15 14:00:43.528 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-新增员工数据：Emp(id=null, username=otto, password=null, name=电棍, gender=1, phone=18955501234, job=2, salary=9999, image=, entryDate=null, deptId=3, deptName=null, createTime=null, updateTime=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-03-12, end=2025-03-21, company=斗鱼, job=主播)])
+2025-03-15 14:00:43.534 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-03-15 14:00:43.535 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-03-15 14:00:43.730 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f250cf6
+2025-03-15 14:00:43.731 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-03-15 14:00:43.734 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@183051406 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f250cf6] for JDBC transaction
+2025-03-15 14:00:43.736 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@183051406 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f250cf6] to manual commit
+2025-03-15 14:00:43.799 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-03-15 14:00:43.799 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@183051406 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f250cf6]
+2025-03-15 14:00:43.805 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@183051406 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f250cf6] after transaction
+2025-03-15 14:00:43.852 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-03-15 14:06:25.685 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-15 14:06:25.689 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-03-15 14:06:25.691 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-03-15 14:06:25.698 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

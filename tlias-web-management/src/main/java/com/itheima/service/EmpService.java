@@ -9,4 +9,6 @@ import java.time.LocalDate;
 public interface EmpService {
 
     PageResult<Emp> page(EmpQueryParam empQueryParam);
+
+    void save(Emp emp);
 }
