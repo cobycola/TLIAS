@@ -23,6 +23,7 @@ public class DeptController {
         return Result.success(deptList);
     }
 
+    //根据ID查询部门数据 用于修改部门时查询回显
     @GetMapping("/depts/{id}")
     public Result getById(@PathVariable Integer id) {
         log.info("根据ID查询部门数据，id：{}",id);
