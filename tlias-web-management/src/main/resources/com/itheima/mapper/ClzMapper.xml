@@ -1,0 +1,59 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.ClzMapper">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+      insert into clz
+      (name,subject,room,master_id,master_name,begin_date,end_date,create_time,update_time)
+      values
+      (#{name},#{subject},#{room},#{masterId},#{masterName},#{beginDate},#{endDate},#{createTime},#{updateTime})
+    </insert>
+
+    <!-- 修改班级信息-->
+    <update id="update">
+        update clz
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="subject != null">subject = #{subject},</if>
+            <if test="room != null">room = #{room},</if>
+            <if test="masterId != null">master_id = #{masterId},</if>
+            <if test="masterName != null">master_name = #{masterName},</if>
+            <if test="beginDate != null">begin_date = #{beginDate},</if>
+            <if test="endDate != null">end_date = #{endDate},</if>
+            <if test="updateTime != null">update_time = #{updateTime}</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--按照需求查询所有班级信息-->
+    <select id="list" resultType="com.itheima.pojo.Clz">
+        select id,name,subject,room,master_id,master_name,begin_date,end_date,create_time,update_time
+        from clz
+        <where>
+            <if test="name!= null and name!=''">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="begin!= null">
+                and end_date <![CDATA[>=]]> #{begin}
+            </if>
+            <if test="end!= null">
+                and end_date <![CDATA[<=]]> #{end}
+            </if>
+        </where>
+        order by update_time desc
+    </select>
+    <select id="getById" resultType="com.itheima.pojo.Clz">
+        select id,name,subject,room,master_id,master_name,begin_date,end_date,create_time,update_time
+        from clz
+        where id=#{id}
+    </select>
+
+    <!--根据id删除班级信息-->
+    <delete id="deleteByIds">
+        delete from clz where id in
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

@@ -9,7 +9,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PageResult<T> {
-    private Long total;
-    private List<T> rows;
+public class JobOption {
+    private List jobList;
+    private List dataList;
 }
