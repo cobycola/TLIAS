@@ -22,8 +22,6 @@ public class ClzController {
 
     @Autowired
     private ClzService clzService;
-    @Autowired
-    private ClzServiceImpl clzServiceImpl;
 
     @GetMapping
     public Result page(ClzQueryParam clzQueryParam){
@@ -54,8 +52,8 @@ public class ClzController {
     @GetMapping("/{id}")
     public Result getById(@PathVariable Integer id){
         log.info("根据id查询班级{}",id);
-        clzService.getById(id);
-        return Result.success();
+        Clz clz=clzService.getById(id);
+        return Result.success(clz);
     }
 
     @PutMapping

@@ -15,7 +15,7 @@ public interface ClzService {
 
     void insert(Clz clz);
 
-    void getById(Integer id);
+    Clz getById(Integer id);
 
     void update(Clz clz);
 

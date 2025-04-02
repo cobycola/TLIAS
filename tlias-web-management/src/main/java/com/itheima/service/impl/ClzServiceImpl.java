@@ -72,7 +72,7 @@ public class ClzServiceImpl implements ClzService {
     }
 
     @Override
-    public void getById(Integer id) {
+    public Clz getById(Integer id) {
         clzMapper.getById(id);
     }
 
